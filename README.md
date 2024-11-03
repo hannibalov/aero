@@ -1,10 +1,10 @@
-# Adobe Aero
+# Lens Studio
 
-En este tutorial veremos cómo utilizar Adobe Aero para desarrollar nuestras primeras aplicaciones.
+En este tutorial veremos cómo utilizar Lens Studio para desarrollar nuestras primeras aplicaciones.
 
-Antes de empezar, deberéis instalaros [Adobe Aero](https://creativecloud.adobe.com/apps/download/aero) y usar vuestra cuenta de Adobe a través de la UOC. 
+Antes de empezar, deberéis instalaros [Lens Studio](https://ar.snap.com/download?lang=en-US). 
 
-Podéis seguir [este enlace](Studio.md) para tener una primera impresión de la interfaz de Adobe Aero y entender qué simboliza cada parte.
+Podéis seguir [este enlace](Studio.md) para tener una primera impresión de la interfaz de Lens Studio y entender qué simboliza cada parte.
 
 Podéis utilizar los siguientes enlaces para lograr los objetivos de esta serie de tutoriales:
 
