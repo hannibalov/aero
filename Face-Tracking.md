@@ -14,34 +14,22 @@ Abrimos Lens Studio y creamos un nuevo proyecto.
 
 ![Captura del menú inicial de Lens Studio](https://github.com/user-attachments/assets/29a26e19-aa35-4985-9255-f989cee6e5e7)
 
----
-
-## Paso 2: Agregar un _Face Tracker_
-
-En la ventana de la escena (_Scene_), hacemos clic derecho y seleccionamos **Add Object > Face Effects > Face Tracker**. Esto añadirá un objeto que detecta la cara frente a la cámara.  
-![Captura mostrando cómo agregar el Face Tracker](path/to/screenshot2.png)
-
-Cuando el _Face Tracker_ esté activo, verás un gizmo en el visor (_Viewport_) que representa la posición y orientación del rostro detectado.  
-![Captura mostrando el gizmo en el rostro](path/to/screenshot3.png)
+No hace falta que abramos un proyecto de ejemplo, vamos a desarrollar este ejemplo desde 0.
 
 ---
 
-## Paso 3: Añadir un _Face Mesh_
+## Paso 2: Agregar un _Face Mask_
 
-Con el _Face Tracker_ seleccionado, hacemos clic derecho sobre él y seleccionamos **Add > Face Mesh**.  
-El _Face Mesh_ es una malla 3D que se ajusta automáticamente a la geometría del rostro detectado.
-
-![Captura mostrando cómo añadir el Face Mesh](path/to/screenshot4.png)
-
-Verás que la malla 3D aparece sobre el rostro en el visor.  
-![Captura mostrando el _Face Mesh_ sobre el rostro](path/to/screenshot5.png)
+En la ventana de la escena (_Scene_), hacemos clic derecho y seleccionamos **+ > Face Mask**. Esto añadirá un objeto que detecta la cara frente a la cámara. Este objeto viene con unas opciones predeterminadas, que cambiaremos a continuación:
+![Captura mostrando cómo agregar el Face Mask](https://github.com/user-attachments/assets/c60f0221-3c5f-4d09-b0a0-c9830a50f3fc)
 
 ---
 
-## Paso 4: Crear y aplicar un material
+## Paso 3: Personalizar el material
 
-Con el _Face Mesh_ seleccionado, ve al panel de propiedades y haz clic en el botón **+** en la sección **Materials**. Esto crea un nuevo material asociado al _Face Mesh_.  
-![Captura mostrando la creación del material](path/to/screenshot6.png)
+Con el _Face Mesh_ seleccionado, ve al panel _Inspector_ y haz clic en el botón **Texture**. 
+
+![Captura mostrando el material](https://github.com/user-attachments/assets/e9398947-68b6-4e09-93d6-c00159bf8f5c)
 
 En el panel de **Assets**, selecciona el material recién creado y configúralo según el tipo de efecto que desees. Por ejemplo:  
 
