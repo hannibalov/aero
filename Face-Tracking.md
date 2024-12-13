@@ -47,7 +47,7 @@ Como veréis, la cara de la persona ya tiene un efecto aplicado por defecto, es 
 
 ![Nuevo preview](https://github.com/user-attachments/assets/757fef9b-274d-46f0-81eb-f3841dfb2a2e)
 
-Ahora, apretaremos el campo que aparece a la derecha del primer _Texture_. Esta es la textura de color
+Ahora, volvamos al panel _Inspector_ y apretaremos el campo que aparece a la derecha del primer _Texture_ dentro del componente _Face Mask_. Esta es la textura de color. En este punto Lens Studio es un poco confuso, ya que hay dos _Texture_ seguidos, y parece que no tiene sentido. Sin embargo, esto se debe sólo a que lo que se muestra en el _Inspector_ es sólo un resumen con las opciones más habituales, y la otra opción de _Texture_ es la textura de opacidad. Esta es una opción que queda fuera del alcance de este curso, así que la ignoraremos.
 
 ![image](https://github.com/user-attachments/assets/a975b555-0d04-4f13-a2e9-d5e3c93a3409)
 
