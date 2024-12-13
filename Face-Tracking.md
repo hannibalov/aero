@@ -23,56 +23,34 @@ No hace falta que abramos un proyecto de ejemplo, vamos a desarrollar este ejemp
 En la ventana de la escena (_Scene_), hacemos clic derecho y seleccionamos **+ > Face Mask**. Esto añadirá un objeto que detecta la cara frente a la cámara. Este objeto viene con unas opciones predeterminadas, que cambiaremos a continuación:
 ![Captura mostrando cómo agregar el Face Mask](https://github.com/user-attachments/assets/c60f0221-3c5f-4d09-b0a0-c9830a50f3fc)
 
+Como veréis, la cara de la persona 
+
 ---
 
-## Paso 3: Personalizar el material
+## Paso 3: Añadir la textura
+
+En el panel _Asset Browser_ haz click en el botón **+** para importar un nuevo _asset_ al proyecto. 
+
+![Captura para añadir textura](https://github.com/user-attachments/assets/235b4668-94da-4420-9d57-2614a971753c)
+
+En el nuevo panel que se muestra, selecciona el botón _Import Asset_ y escoge el archivo con la textura. En nuestro caso hemos creado un archivo Moustache.png a mano , para simular un simpático bigote y barbilla, que usaremos en el siguiente paso.
+
+![filter](https://github.com/user-attachments/assets/3275cdb1-aa9b-48f3-a150-225ca30d65d3)
+
+---
+## Paso 4: Personalizar el material
 
 Con el _Face Mesh_ seleccionado, ve al panel _Inspector_ y haz clic en el botón **Texture**. 
 
 ![Captura mostrando el material](https://github.com/user-attachments/assets/e9398947-68b6-4e09-93d6-c00159bf8f5c)
 
-En el panel de **Assets**, selecciona el material recién creado y configúralo según el tipo de efecto que desees. Por ejemplo:  
+En el nuevo panel que se muestra, selecciona la textura que hemos importado en el paso anterior (Moustache):  
 
-1. En **Shader Type**, selecciona **Retouching** para suavizar los rasgos del rostro o **Face Paint** para aplicar una textura personalizada.  
-2. Si seleccionas _Face Paint_, podrás cargar una textura personalizada haciendo clic en el campo **Base Texture** y seleccionando **Choose File**.  
+![image](https://github.com/user-attachments/assets/96460075-d8b4-4dd0-afb1-bb54111485c8)
 
-![Captura mostrando la configuración del material y carga de una textura](path/to/screenshot7.png)
 
 ---
 
-## Paso 5: Añadir la textura personalizada
-
-Crea una textura personalizada (por ejemplo, un bigote, gafas o cualquier diseño). Luego, asocia esta textura al material configurado en el paso anterior.  
-
-1. Haz clic en el material.  
-2. En **Base Texture**, selecciona tu archivo de textura.  
-
-![Captura mostrando el efecto final con la textura aplicada](path/to/screenshot8.png)
-
----
-
-## Paso 6: Ajustar el efecto
-
-Puedes ajustar el tamaño, posición y orientación del _Face Mesh_ usando las herramientas de transformación en el panel de propiedades o directamente en el visor. Experimenta con diferentes configuraciones para personalizar tu efecto.
-
-![Captura mostrando cómo ajustar el _Face Mesh_](path/to/screenshot9.png)
-
----
-
-## Paso 7: Probar tu efecto
-
-Para probar el efecto en tiempo real, conecta tu dispositivo móvil al ordenador y usa la opción **Preview** de Lens Studio. Esto te permitirá ver cómo se comporta el efecto en un rostro real.  
-![Captura mostrando la vista previa en un dispositivo móvil](path/to/screenshot10.png)
-
----
-
-## Paso final: Exportar y compartir
-
-Una vez satisfecho con tu efecto, haz clic en **Publish Lens** para exportarlo y compartirlo en Snapchat u otras plataformas compatibles.  
-![Captura mostrando el proceso de publicación](path/to/screenshot11.png)
-
----
-
-¡Y listo! Has creado un efecto facial usando _face tracking_ en Lens Studio. Ahora puedes experimentar con diferentes diseños y configuraciones para llevar tus creaciones al siguiente nivel. 🚀
+¡Y listo! Has creado un efecto facial usando _face mesh en Lens Studio. Ahora puedes experimentar con diferentes diseños y configuraciones para llevar tus creaciones al siguiente nivel. 🚀
 
 
