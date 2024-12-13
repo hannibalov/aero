@@ -58,6 +58,7 @@ En el nuevo panel que aparece, selecciona la textura que hemos importado en el p
 
 ---
 
-¡Y listo! Has creado un efecto facial usando _face mesh en Lens Studio. Ahora puedes experimentar con diferentes diseños y configuraciones para llevar tus creaciones al siguiente nivel. 🚀
+¡Y listo! Has creado un efecto facial usando _Face Mesh_ en Lens Studio. Ahora puedes experimentar con diferentes diseños y configuraciones para llevar tus creaciones al siguiente nivel. 🚀
 
-
+---
+[Página previa](Studio.md) - [página siguiente](Plane-Tracker.md)
