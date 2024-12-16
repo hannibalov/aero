@@ -1,6 +1,6 @@
 # Uso de Device Tracking en Lens Studio
 
-En esta sección, aprenderemos cómo utilizar **Device Tracking** en Lens Studio. Este sistema permite rastrear la posición y rotación del dispositivo en el espacio, creando efectos interactivos que responden al movimiento del teléfono o tablet.  
+En esta sección, aprenderemos cómo utilizar **Device Tracking** en Lens Studio. Completad primero el tutorial de [Face Effects](Face-Effects.md) para tener una primera introducción al concepto de _tracking_. En ese tutorial podréis ver como **Lens Studio** analiza la imágen de la cámara para detectar la posición y orientación de un rostro. **Device Tracking** permite rastrear la posición y rotación del dispositivo en el espacio, creando efectos interactivos que responden al movimiento del teléfono o tablet, de manera que da la impresión de que podemos dejar objetos virtuales en el mundo real.  
 
 ---
 
@@ -18,18 +18,22 @@ Por ejemplo, puedes utilizar **Device Tracking** para posicionar un modelo 3D en
 
 ## Cómo configurar Device Tracking
 
+Antes de empezar, vamos a seleccionar una emulación de cámara que sea más útil para esta tarea. Vamos a seleccionar en _Preview_ **Indoor**
+
+![image](https://github.com/user-attachments/assets/7c0276e1-c212-46c7-b3f6-2accf5f8c10c)
+
 En Lens Studio, **Device Tracking** es un **componente** que se añade directamente a la cámara de tu escena. Sigue estos pasos para activarlo:  
 
 1. **Selecciona la cámara en tu proyecto**:  
-   En el **Panel de Objetos** (Objects), busca y selecciona el objeto **Camera**. Este objeto está presente de forma predeterminada en todos los proyectos de Lens Studio.  
+   En el **Panel de Scene Hierarchy**, busca y selecciona el objeto **Camera Object**. Este objeto está presente de forma predeterminada en todos los proyectos de Lens Studio.  
 
 2. **Añade el componente Device Tracking**:  
    - En el **Panel de Propiedades** (Inspector), haz clic en el botón **Add Component**.  
    - Selecciona **Device Tracking** en el menú desplegable.  
 
-   ![Agregar Device Tracking](uploads/add-device-tracking.png)  
+   ![Agregar Device Tracking](https://github.com/user-attachments/assets/8124827a-60ee-4506-ac0a-7246dc22f074)
 
-3. **Configura el modo de rastreo**:  
+4. **Configura el modo de rastreo**:  
    En las propiedades del componente **Device Tracking**, selecciona uno de los siguientes modos según tus necesidades:  
 
    - **Rotation**:  
@@ -44,7 +48,7 @@ En Lens Studio, **Device Tracking** es un **componente** que se añade directame
      Rastrea posición, rotación y mapeo del entorno físico.  
      Requiere dispositivos compatibles con ARKit (iOS) o ARCore (Android).  
 
-   ![Modos de Device Tracking](uploads/device-tracking-modes.png)  
+   ![Modos de Device Tracking](https://github.com/user-attachments/assets/1c200c17-42a9-4c6f-829f-67da629e83cf)
 
 ---
 
@@ -67,10 +71,10 @@ Aunque el **Device Tracking** es una herramienta poderosa, tiene algunas limitac
 ## Ejemplo práctico: Crear un efecto con Device Tracking
 
 1. **Añade un objeto 3D a la escena**:  
-   - Ve al **Panel de Recursos** (Resources) y selecciona un modelo 3D desde la biblioteca de Lens Studio o importa el tuyo.  
+   - Ve al **Asset Browser** y selecciona un modelo 3D desde la biblioteca de Lens Studio o importa el tuyo (visita [este tutorial](Objetos-3D.md) si no entiendes este paso).  
 
 2. **Ancla el objeto a la cámara**:  
-   - En el **Panel de Objetos** (Objects), arrastra el objeto 3D a la jerarquía como hijo de la cámara.  
+   - En el **Panel de Scene Hierarchy**, pon el objeto el la raíz de la jerarquía.  
    - Asegúrate de que el **Device Tracking** está habilitado en la cámara.  
 
 3. **Prueba el efecto**:  
