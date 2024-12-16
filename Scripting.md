@@ -99,23 +99,22 @@
 2. Agrega este script al objeto desde el panel Inspector.
 3. Configura la propiedad textObject apuntando al objeto de texto.
 
-
 ## Cómo añadir estos archivos al proyecto
 
   1. Crear el script:
-  * Haz clic derecho en el panel Resources.
-  * Selecciona Add New > Script y nómbralo (por ejemplo, ChangeColor.js).
+    * Haz clic derecho en el panel Resources.
+    * Selecciona Add New > Script y nómbralo (por ejemplo, ChangeColor.js).
   2. Copiar el código:
-  * Abre el archivo recién creado y pega el código correspondiente.
+    * Abre el archivo recién creado y pega el código correspondiente.
   3. Asignar el script:
-  * Selecciona el objeto desde el panel Objects.
-  * En el panel Inspector, agrega un componente Script y selecciona el script creado.
+    * Selecciona el objeto desde el panel Objects.
+    * En el panel Inspector, agrega un componente Script y selecciona el script creado.
   4. Configurar inputs:
-  *Configura las propiedades (inputs) desde el panel Inspector, seleccionando objetos o ajustando valores numéricos según sea necesario.
+    *Configura las propiedades (inputs) desde el panel Inspector, seleccionando objetos o ajustando valores numéricos según sea necesario.
 
 ---
 
 ¡Con estos ejemplos básicos, ya puedes comenzar a experimentar con scripting en Lens Studio para crear experiencias AR interactivas! 🎉
 
 ---
-[Página previa](Face-Effects.md) - [Página siguiente](Objetos-3D.md)
+[Página previa](Animaciones.md) - [Página siguiente](Segmentación.md)
