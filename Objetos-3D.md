@@ -6,14 +6,15 @@ En este tutorial aprenderás cómo importar y añadir objetos 3D a tu escena en 
 
 ## Paso 1: Importar un objeto 3D
 
-1. **Accede al Panel de Recursos (Resources)**:  
-   - En la esquina inferior izquierda de Lens Studio, encontrarás el **Panel de Recursos**.  
+1. **Accede al Asset Browser**:  
+   - En la esquina inferior izquierda de Lens Studio, encontrarás el **Asset Browser**.  
 
 2. **Haz clic en el botón "+"**:  
    - Haz clic en el ícono **+** para abrir el menú de recursos.  
    - Selecciona la opción **Import Files...** para cargar un modelo 3D desde tu ordenador.  
 
-   ![Importar archivo 3D](uploads/import-3d-file.png)  
+   ![Importar archivo 3D](https://github.com/user-attachments/assets/77fc3652-30e9-42c2-a1f5-5c6d1c45c69b)
+
 
    > **Nota**: Lens Studio soporta modelos en formatos **.FBX**, **.OBJ**, y **.GLTF/GLB**.  
 
@@ -21,12 +22,14 @@ En este tutorial aprenderás cómo importar y añadir objetos 3D a tu escena en 
    - Si no tienes un modelo propio, puedes utilizar los recursos prediseñados en la pestaña **Asset Library**.  
    - Busca modelos 3D gratuitos y descárgalos directamente a tu proyecto.  
 
+   ![Asset Library](https://github.com/user-attachments/assets/bd0f847d-ed20-47f4-a3a9-98ccb83cbc1b)
+
 ---
 
 ## Paso 2: Añadir el objeto 3D a la escena
 
 1. **Arrastra el modelo 3D al Panel de Objetos (Objects)**:  
-   - Una vez importado, el modelo aparecerá en el **Panel de Recursos**.  
+   - Una vez importado, el modelo aparecerá en el **Asset Browser**.  
    - Arrástralo al **Panel de Objetos**, que se encuentra en la esquina superior izquierda de Lens Studio.  
 
 2. **Posiciona el objeto en la jerarquía**:  
