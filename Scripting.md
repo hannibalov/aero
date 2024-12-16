@@ -21,7 +21,7 @@
 - **JavaScript básico:**
   - Conceptos como variables, funciones, bucles, condicionales y eventos.
 - **Conceptos de programación gráfica:**
-  - Coordenadas 3D y transformaciones básicas.
+  - Coordenadas 3D y transformaciones básicas. Aunque en esta serie de tutoriales no hará falta.
 - **Familiaridad con Lens Studio:**
   - Saber cómo crear objetos, asignar materiales y agregar scripts.
 
@@ -68,6 +68,7 @@
 ### [Código JavaScript (`ChangeColor.js`)](scripts/ChangeColor.js)
 
 ### Pasos:
+
 1. Crea un objeto 3D en Lens Studio.
 2. Asigna un material al objeto.
 3. Agrega este script al objeto desde el panel Inspector.
@@ -75,10 +76,40 @@
 
 ## **Ejemplo 2: Rotar un objeto continuamente**
 
+### [Código JavaScript (`RotateObject.js`)](scripts/RotateObject.js)
+
 ### Pasos:
+
 1. Agrega un objeto 3D (como un cubo).
 2. Asigna este script al objeto desde el panel Inspector.
 3. Configura la velocidad de rotación ajustando la propiedad rotationSpeed.
+
+## **Ejemplo 3: Mostrar un texto por tiempo limitado al tocar la pantalla**
+
+### [Código JavaScript (`ShowText.js`)](scripts/ShowText.js)
+
+### Pasos:
+
+1. Crea un objeto de texto en Lens Studio.
+2. Agrega este script al objeto desde el panel Inspector.
+3. Configura la propiedad textObject apuntando al objeto de texto.
+
+## Cómo añadir estos archivos al proyecto
+
+  1. Crear el script:
+  * Haz clic derecho en el panel Resources.
+  * Selecciona Add New > Script y nómbralo (por ejemplo, ChangeColor.js).
+  2. Copiar el código:
+  * Abre el archivo recién creado y pega el código correspondiente.
+  3. Asignar el script:
+  * Selecciona el objeto desde el panel Objects.
+  * En el panel Inspector, agrega un componente Script y selecciona el script creado.
+  4. Configurar inputs:
+  *Configura las propiedades (inputs) desde el panel Inspector, seleccionando objetos o ajustando valores numéricos según sea necesario.
+
+---
+
+¡Con estos ejemplos básicos, ya puedes comenzar a experimentar con scripting en Lens Studio para crear experiencias AR interactivas! 🎉
 
 ---
 [Página previa](Face-Effects.md) - [Página siguiente](Objetos-3D.md)
