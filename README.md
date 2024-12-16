@@ -12,7 +12,7 @@ Podéis utilizar los siguientes enlaces para lograr los objetivos de esta serie 
 - [Device Tracking](Device-Tracking.md): utilizar el _device tracking_ para colocar objetos 3D en la vista de la cámara, de manera que parezca que estan en el mundo real.
 - [Objetos 3D](Objetos-3D.md): importar contenidos 3D y usarlos en los efectos.
 - [Animaciones](Animaciones.md): importar y animar contenidos 3D.
-- [Patch Editor](Patch-Editor.md): programar efectos para que sean más dinámicos e interactivos con Patch Editor.
+- [Scripting](Scripting.md): programar efectos para que sean más dinámicos e interactivos con JavaScript.
 - [Segmentación](Segmentación.md): utilizar la segmentación para extraer el usuario del entorno y colocarlo en un entorno completamente nuevo.
 - [Sonido](Sonido.md): manipular el sonido o la voz del usuario.
 
