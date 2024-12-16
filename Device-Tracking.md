@@ -89,4 +89,4 @@ Aunque el **Device Tracking** es una herramienta poderosa, tiene algunas limitac
 ¡Y eso es todo! Ahora puedes aprovechar el **Device Tracking** en Lens Studio para crear efectos interactivos y dinámicos.  
 
 ---
-[Página previa](Face-Tracking.md) - [Página siguiente](Objetos-3D.md)
+[Página previa](Face-Effects.md) - [Página siguiente](Objetos-3D.md)
