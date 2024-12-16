@@ -88,4 +88,4 @@ Antes de implementar la segmentación de fondo, ten en cuenta estas limitaciones
 ¡Y eso es todo! Ahora sabes cómo implementar la segmentación de fondo en **Lens Studio** para crear efectos visuales impactantes.
 
 ---
-[Página previa](Face-Effects.md) - [Página siguiente](Objetos-3D.md)
+[Página previa](Scripting.md) - [Página siguiente](Sonido.md)
