@@ -65,24 +65,20 @@
 
 ## **Ejemplo 1: Cambiar el color de un objeto al tocarlo**
 
-### Código JavaScript (`ChangeColor.js`)
-
-```javascript
-// ----- ChangeColor.js -----
-
-// Referencia al objeto al que se asigna este script
-//@input SceneObject targetObject
-
-// Evento cuando el usuario toca la pantalla
-script.createEvent("TapEvent").bind(function () {
-    // Cambiar el color del material del objeto
-    var material = script.targetObject.getFirstComponent("Component.RenderMeshVisual").mainMaterial;
-    material.mainPass.baseColor = new vec4(Math.random(), Math.random(), Math.random(), 1);
-});
-```
+### [Código JavaScript (`ChangeColor.js`)](scripts/ChangeColor.js)
 
 ### Pasos:
 1. Crea un objeto 3D en Lens Studio.
 2. Asigna un material al objeto.
 3. Agrega este script al objeto desde el panel Inspector.
 4. Establece la propiedad targetObject seleccionando el objeto que deseas afectar.
+
+## **Ejemplo 2: Rotar un objeto continuamente**
+
+### Pasos:
+1. Agrega un objeto 3D (como un cubo).
+2. Asigna este script al objeto desde el panel Inspector.
+3. Configura la velocidad de rotación ajustando la propiedad rotationSpeed.
+
+---
+[Página previa](Face-Effects.md) - [Página siguiente](Objetos-3D.md)
