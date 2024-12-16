@@ -35,15 +35,19 @@ En este tutorial aprenderás cómo importar y añadir objetos 3D a tu escena en 
 2. **Posiciona el objeto en la jerarquía**:  
    - Puedes colocar el objeto en la raíz de la jerarquía o como hijo de la **Camera**, de un **Head Binding**,  según tu efecto. Vamos a ver las opciones: 
 
-   1. En la raíz:
-  
-   2. Hijo de la **Camera**:
-  
-   ![image](https://github.com/user-attachments/assets/0be9a337-12b4-462c-86cf-c6dcc7ffc944)
+   1. Hijo de la **Camera**:
 
    En este caso el objeto estará estático, siempre mostrándose en la misma posición de la pantalla sin importar cómo se mueve la cara
+
+   ![image](https://github.com/user-attachments/assets/844e5f7f-70f9-4926-867d-6d831971f509)
+      
+   2. En la raíz:
+
+   ![image](https://github.com/user-attachments/assets/aaf2114f-59e4-495e-a5a5-b1dcc4e9a9a9)
+
+   Si no tenemos un efecto de [Device Tracking](Device-Tracking.md) se comporta como el caso anterior. Pero si lo tenemos, da el efecto de que el objeto se queda estático en el mundo real. 
    
-   2. Hijo de un **Head Binding**:
+   3. Hijo de un **Head Binding**:
   
    ![image](https://github.com/user-attachments/assets/5fadced0-39e0-4970-a261-59004028b178)
 
@@ -54,11 +58,11 @@ En este tutorial aprenderás cómo importar y añadir objetos 3D a tu escena en 
 ## Paso 3: Ajustar propiedades del objeto 3D
 
 1. **Escala, rotación y posición**:  
-   - Selecciona el objeto en el **Panel de Objetos**.  
+   - Selecciona el objeto en el **Panel Scene Hierarchy**.  
    - Usa el **Panel de Propiedades** (Inspector) para ajustar su posición, escala y rotación.  
 
 2. **Materiales y texturas**:  
-   - Si el modelo no tiene texturas o materiales, puedes añadirlos desde el **Panel de Recursos**.  
+   - Si el modelo no tiene texturas o materiales, puedes añadirlos desde el **Asset Browser**.  
    - Haz clic en el modelo 3D, selecciona el material en las propiedades y asocia una textura.  
 
 ---
@@ -76,4 +80,4 @@ En este tutorial aprenderás cómo importar y añadir objetos 3D a tu escena en 
 ¡Listo! Ahora tienes un objeto 3D en tu escena. Puedes combinarlo con otros efectos como **Device Tracking** o **Plane Tracking** para crear experiencias más interactivas.  
 
 ---
-[Página previa](Device-Tracking.md) - [Página siguiente](Materiales-y-Texturas.md)
+[Página previa](Device-Tracking.md) - [Página siguiente](Animaciones.md)
