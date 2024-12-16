@@ -70,9 +70,12 @@
 ### Pasos:
 
 1. Crea un objeto 3D en Lens Studio.
-2. Asigna un material al objeto.
+2. Crea un material (por ejemplo Unlit) y asignaselo al objeto.
 3. Agrega este script al objeto desde el panel Inspector.
-4. Establece la propiedad targetObject seleccionando el objeto que deseas afectar.
+4. Establece la propiedad targetObject seleccionando el objeto del paso 1.
+
+![image](https://github.com/user-attachments/assets/da4f4d1e-a29d-455e-9453-b6b6ef382184)
+
 
 ## **Ejemplo 2: Rotar un objeto continuamente**
 
@@ -84,6 +87,8 @@
 2. Asigna este script al objeto desde el panel Inspector.
 3. Configura la velocidad de rotación ajustando la propiedad rotationSpeed.
 
+![image](https://github.com/user-attachments/assets/9d8d036a-ad2d-4206-ac67-e3518217e115)
+
 ## **Ejemplo 3: Mostrar un texto por tiempo limitado al tocar la pantalla**
 
 ### [Código JavaScript (`ShowText.js`)](scripts/ShowText.js)
@@ -93,6 +98,7 @@
 1. Crea un objeto de texto en Lens Studio.
 2. Agrega este script al objeto desde el panel Inspector.
 3. Configura la propiedad textObject apuntando al objeto de texto.
+
 
 ## Cómo añadir estos archivos al proyecto
 
