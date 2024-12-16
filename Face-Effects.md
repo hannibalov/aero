@@ -2,7 +2,7 @@
 
 En esta sección, aprenderemos cómo usar las herramientas que nos ofrece **Lens Studio** para realizar seguimiento facial y aplicar efectos personalizados.
 
-Antes de comenzar, es importante entender qué significa _face tracking_. En el contexto de **Lens Studio**, el _face tracking_ permite detectar la posición, orientación y características faciales utilizando la cámara del dispositivo. Esta información se utiliza para aplicar efectos visuales dinámicos en tiempo real.
+Antes de comenzar, es importante entender qué está pasando bajo el capó. **Lens Studio** analiza la imágen de la cámara, y cuando detecta una cara, calcula la posición, orientación y características faciales utilizando la cámara del dispositivo. Esta información se utiliza para aplicar efectos visuales dinámicos en tiempo real. Al ser un efecto bastante común, hay varias herramientas dedicadas a la cara en **Lens Studio**, en este tutorial veremos la más sencilla con **Face Mask**.
 
 A continuación, veremos un ejemplo práctico para aplicar un efecto en el rostro detectado:
 
@@ -23,6 +23,10 @@ No hace falta que abramos un proyecto de ejemplo, vamos a desarrollar este ejemp
 En la ventana de la escena (_Scene_), hacemos clic derecho y seleccionamos **+ > Face Mask**. Esto añadirá un objeto que detecta la cara frente a la cámara. Este objeto viene con unas opciones predeterminadas, que cambiaremos a continuación:
 ![Captura mostrando cómo agregar el Face Mask](https://github.com/user-attachments/assets/c60f0221-3c5f-4d09-b0a0-c9830a50f3fc)
 
+### Comentario
+
+Si os fijáis, si hacéis click en **+** en _Scene_ y escribís Face, veréis que hay una variedad amplia de herramientas para hacer efectos faciales. Probad unas cuantas para ver las posibilidades de **Lens Studio**
+
 ---
 
 ## Paso 3: Importar la textura
@@ -31,9 +35,14 @@ En el panel _Asset Browser_ haz click en el botón **+** para importar un nuevo 
 
 ![Captura para añadir textura](https://github.com/user-attachments/assets/235b4668-94da-4420-9d57-2614a971753c)
 
-En el nuevo panel que se muestra, selecciona el botón _Import Asset_ y escoge el archivo con la textura. En nuestro caso hemos creado un archivo Moustache.png a mano, para simular un simpático bigote y barbilla, que usaremos en el siguiente paso.
+En el nuevo panel que se muestra, selecciona el botón _Import Asset_ y escoge el archivo con la textura. En nuestro caso hemos creado un archivo Moustache.png a mano, adjunto a continuación, para simular un simpático bigote y barbilla, que usaremos en el siguiente paso.
 
 ![filter](https://github.com/user-attachments/assets/3275cdb1-aa9b-48f3-a150-225ca30d65d3)
+
+
+## Paso 3 alternativo: Importar objetos del Asset Library
+
+En la sección [Objetos 3D](Objetos-3D.md) de esta serie de tutoriales veréis cómo usar el **Asset Library** para importar texturas u objetos 3D, entre otros recursos. Hay bastantes recursos de bigotes y sombreros, que os podéis descargar y usar de manera gratuita
 
 ---
 ## Paso 4: Personalizar el material
