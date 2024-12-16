@@ -18,7 +18,7 @@ En este tutorial aprenderás cómo importar y añadir objetos 3D a tu escena en 
 
    > **Nota**: Lens Studio soporta modelos en formatos **.FBX**, **.OBJ**, y **.GLTF/GLB**.  
 
-3. **Usa la biblioteca de objetos prediseñados (opcional)**:  
+3. **Usa el Asset Library (opcional)**:  
    - Si no tienes un modelo propio, puedes utilizar los recursos prediseñados en la pestaña **Asset Library**.  
    - Busca modelos 3D gratuitos y descárgalos directamente a tu proyecto.  
 
@@ -28,14 +28,26 @@ En este tutorial aprenderás cómo importar y añadir objetos 3D a tu escena en 
 
 ## Paso 2: Añadir el objeto 3D a la escena
 
-1. **Arrastra el modelo 3D al Panel de Objetos (Objects)**:  
+1. **Arrastra el modelo 3D al Panel Scene Hierarchy**:  
    - Una vez importado, el modelo aparecerá en el **Asset Browser**.  
-   - Arrástralo al **Panel de Objetos**, que se encuentra en la esquina superior izquierda de Lens Studio.  
+   - Arrástralo al **Panel Scene Hierarchy**, que se encuentra en la esquina superior izquierda de Lens Studio.  
 
 2. **Posiciona el objeto en la jerarquía**:  
-   - Asegúrate de colocar el objeto como hijo de la **Camera** o de un **Tracker** (como el **Plane Tracker** o **Device Tracking**) según tu efecto.  
+   - Puedes colocar el objeto en la raíz de la jerarquía o como hijo de la **Camera**, de un **Head Binding**,  según tu efecto. Vamos a ver las opciones: 
 
-   ![Añadir objeto 3D](uploads/add-3d-object.png)  
+   1. En la raíz:
+  
+   2. Hijo de la **Camera**:
+  
+   ![image](https://github.com/user-attachments/assets/0be9a337-12b4-462c-86cf-c6dcc7ffc944)
+
+   En este caso el objeto estará estático, siempre mostrándose en la misma posición de la pantalla sin importar cómo se mueve la cara
+   
+   2. Hijo de un **Head Binding**:
+  
+   ![image](https://github.com/user-attachments/assets/5fadced0-39e0-4970-a261-59004028b178)
+
+   En este caso la posición y orientación del objeto 3d 
 
 ---
 
