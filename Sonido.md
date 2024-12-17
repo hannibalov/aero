@@ -102,3 +102,4 @@ script.createEvent("TapEvent").bind(function () {
 ¡Con estos pasos, ya puedes añadir sonidos personalizados a tus Lentes! 🎉
 
 ---
+[Página previa](Segmentación.md) 
