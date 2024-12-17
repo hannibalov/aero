@@ -67,9 +67,7 @@ El componente de audio tiene varias propiedades importantes:
 - **Loop:** Actívalo si quieres que el sonido se repita en bucle.  
 - **Volume:** Ajusta el nivel de volumen del audio.  
 
-
-
-![image](https://github.com/user-attachments/assets/audio-component-ui-example)  
+![Captura de pantalla 2024-12-17 131236](https://github.com/user-attachments/assets/e45ad2c8-58f7-4559-b6a0-8f0458f77f99)
 
 ---
 
