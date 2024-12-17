@@ -14,6 +14,21 @@ La **Segmentación de Fondo** analiza la imagen capturada por la cámara y disti
 
 ---
 
+## Limitaciones y consideraciones
+
+Antes de implementar la segmentación de fondo, ten en cuenta estas limitaciones:
+
+1. **Condiciones de iluminación**:  
+   - La detección de fondo funciona mejor en entornos bien iluminados.
+
+2. **Calidad de la cámara**:  
+   - Cámaras de baja resolución pueden afectar la precisión de la segmentación.
+
+3. **Objetos similares al fondo**:  
+   - La segmentación puede fallar si el sujeto tiene colores o texturas similares al fondo.
+
+---
+
 ## Cómo configurar la Segmentación de Fondo
 
 Este tutorial no será realmente intuitivo, pero sigue estos pasos para configurar la segmentación de fondo en tu proyecto:
@@ -65,50 +80,9 @@ Este modo sirve para configurar que tiene que llenar toda la pantalla. Veréis q
 
 ![image](https://github.com/user-attachments/assets/0e8eee4e-48d9-433f-9015-2a8fb4548ddc)
 
+3. Configuramos el material creado en el primer paso. Habilitamos los campos _Base Texture_ y _Opacity Texture_, y a _Base Texture_ le asignamos el _Device Camera Texture_, mientras que a _Opacity Texture_ la textura de segmentación que acabamos de crear. Seleccionamos también el modo _Normal_ en Blend Mode
 
-3. Configuramos el material creado en el primer paso. Habilitamos los campos _Base Texture_ y _Opacity Texture_, y les asignamos la textura de segmentación que acabamos de crear
-
-![image](https://github.com/user-attachments/assets/356ddbd1-40eb-4cf5-9f6b-45cc1638fad4)
-
-
-4. 
-
----
-
-## Limitaciones y consideraciones
-
-Antes de implementar la segmentación de fondo, ten en cuenta estas limitaciones:
-
-1. **Condiciones de iluminación**:  
-   - La detección de fondo funciona mejor en entornos bien iluminados.
-
-2. **Calidad de la cámara**:  
-   - Cámaras de baja resolución pueden afectar la precisión de la segmentación.
-
-3. **Objetos similares al fondo**:  
-   - La segmentación puede fallar si el sujeto tiene colores o texturas similares al fondo.
-
----
-
-## Ejemplo práctico: Crear un efecto de reemplazo de fondo
-
-### 1. Añadir un fondo dinámico
-- Ve al **Asset Library** y selecciona un video animado como fondo.
-- Añade el video a la **Scene Hierarchy** y colócalo detrás del sujeto segmentado.
-
-### 2. Personalizar el sujeto
-- Usa materiales o texturas específicas en el sujeto para destacar visualmente.
-
-### 3. Prueba el efecto
-- Usa la opción **Preview** en Lens Studio para simular el efecto con diferentes fondos. También puedes probar el efecto en un dispositivo físico.
-
----
-
-## Consejos adicionales
-
-- Utiliza imágenes de alta calidad y bien iluminadas para el fondo.
-- Ajusta los bordes del sujeto en el **Panel de Propiedades** del componente de segmentación para mejorar la precisión.
-- Experimenta con efectos adicionales como partículas o cambios de color para enriquecer el diseño.
+![image](https://github.com/user-attachments/assets/b9514b82-2a84-48cf-9a92-c993d8eaadd8)
 
 ---
 
